@@ -18,3 +18,10 @@ a.nav-link{
 li.nav-item{
 	padding: 0px 16px;
 }
+@media (max-width: 576px) {
+	*{
+		display: block;
+		text-align: center;
+		width: 100%;
+	}
+}
