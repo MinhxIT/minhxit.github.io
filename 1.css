@@ -65,4 +65,34 @@ nav.navbar.navbar-light.bg-faded{
 	width: 50%;
 	height: 100%;
 	background:#e4555b;
+	z-index: 1;
+}
+.thongtin{
+	position: relative;
+	z-index: 2;
+	padding-top: 10%;
+}
+.avatar{
+	width: 20%;
+	border-radius: 50%;
+	margin-bottom: 50px; 
+}
+.thongtin h2{
+	font-size: 40px;
+	text-transform: uppercase;
+	color: white;
+	margin-bottom: 22px;
+}
+.thongtin p{
+	color: black;
+	font-size: 16px;
+	line-height: 20px;
+	/*margin: auto;*/
+	margin-bottom: 34px;
+}
+a.nut.btn.btn-primary{
+	width: 180px;
+	background: black;
+	border-radius: 0px;
+	color: white;
 }
