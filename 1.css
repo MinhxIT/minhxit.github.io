@@ -16,12 +16,35 @@ a.nav-link{
 	line-height: 70px;
 }
 li.nav-item{
-	padding: 0px 16px;
+	margin: 0;
+	padding: 0;
+	margin: 0px 16px;
 }
-@media (max-width: 576px) {
+nav.navbar.navbar-light.bg-faded{
+	margin: 0;
+	padding: 0;
+	height: 100px;
+}
+/*@media (max-width: 576px) {
 	*{
 		display: block;
 		text-align: center;
 		width: 100%;
 	}
-}
+	a.navbar-brand{
+		display: block;
+		text-align: center;
+		width: 100%;
+	}
+	a.nav-link{
+		line-height: 20px;display: inline;
+	}
+	li.nav-item{
+		display: inline;!imp
+		float: none;
+	}
+	ul.nav.navbar-nav.float-xs-right{
+		float: none;
+		text-align: center;
+	}
+}*/
