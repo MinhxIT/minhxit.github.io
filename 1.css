@@ -1,4 +1,20 @@
 *{margin: 0; padding: 0;} 
+.menutop{
+	height: 70px;
+}
 #logo{
 	color: red;
+	line-height: 70px;
+	font-size: 25px;
+	font-family: sans-serif;
+}
+a.nav-link{
+	font-family: segoe ui;
+	text-transform: uppercase;
+	font-size: 16px;
+	color:  #101010;
+	line-height: 70px;
+}
+li.nav-item{
+	padding: 0px 16px;
 }
